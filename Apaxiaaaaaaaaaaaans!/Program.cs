@@ -12,10 +12,9 @@
                 inputAsList.Add(inputAsCharArray[i]);
             }
             string name = inputAsList[0].ToString();
-            bool run = true;
             int j = 0;
             int k = 1;
-            int counter = 0;
+            bool run = true;
             do
             {
                 if (k == inputAsList.Count)
