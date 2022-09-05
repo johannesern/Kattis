@@ -14,16 +14,7 @@
                 {
                     longs[i] = long.Parse(temp[i]);
                 }
-                if (longs[0] < longs[1])
-                {
-                    long res = longs[1] - longs[0];
-                    Console.WriteLine(res);
-                }
-                else
-                {
-                    long res = longs[0] - longs[1];
-                    Console.WriteLine(res);
-                }
+                Console.WriteLine(Math.Abs(longs[0] - longs[1]));
             }
         }
     }
