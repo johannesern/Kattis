@@ -20,8 +20,7 @@
             else
             {
                 Console.WriteLine("fix");
-            }
-            //en kommentar för test av git via VS
+            }            
         }
     }
 }
