@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.3.32825.248
+VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eye of Sauron", "Eye of Sauron\Eye of Sauron.csproj", "{64E87F4E-55F9-485B-895F-C23346C9F989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eye of Sauron", "Eye of Sauron.csproj", "{1F1D8E02-B6C4-4035-9E46-130DFA4B14A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{64E87F4E-55F9-485B-895F-C23346C9F989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64E87F4E-55F9-485B-895F-C23346C9F989}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64E87F4E-55F9-485B-895F-C23346C9F989}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64E87F4E-55F9-485B-895F-C23346C9F989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1D8E02-B6C4-4035-9E46-130DFA4B14A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1D8E02-B6C4-4035-9E46-130DFA4B14A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1D8E02-B6C4-4035-9E46-130DFA4B14A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1D8E02-B6C4-4035-9E46-130DFA4B14A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E8198992-A1B9-4F91-97B6-A52FD09626D8}
+		SolutionGuid = {9B9B0607-3105-46BC-A78C-96596FE4D5E7}
 	EndGlobalSection
 EndGlobal
