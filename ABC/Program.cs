@@ -4,13 +4,18 @@
     {
         static void Main(string[] args)
         {
-            string[] oldOrder = Console.ReadLine().Split(" ").ToArray();
+            string[] ints = Console.ReadLine().Split(" ");
             string ABC = Console.ReadLine();
+            int[] oldOrder = new int[3];
+            for (int i = 0; i < oldOrder.Length; i++)
+            {
+                oldOrder[i] = int.Parse(ints[i]);
+            }
             Array.Sort(oldOrder);
-            int A = int.Parse(oldOrder[0]);
-            int B = int.Parse(oldOrder[1]);
-            int C = int.Parse(oldOrder[2]);
-            int[] newOrder = new int[oldOrder.Length];
+            int A = oldOrder[0];
+            int B = oldOrder[1];
+            int C = oldOrder[2];
+            int[] newOrder = new int[ints.Length];
             newOrder[ABC.IndexOf('A')] = A;
             newOrder[ABC.IndexOf('B')] = B;
             newOrder[ABC.IndexOf('C')] = C;
