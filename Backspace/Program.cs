@@ -37,37 +37,3 @@
         }       
     }
 }
-
-
-//int length = inputCharList.Count - 1;
-
-//public static void EraseChar(int x, List<char> inputCharList, int length)
-//{
-//    for (int i = 0; i < inputCharList.Count; i++)
-//    {
-//        if(inputCharList[i] == '<')
-//        {
-//            inputCharList.RemoveAt(i);
-//            inputCharList.RemoveAt(i - 1);
-//        }
-
-//    }
-//    if (inputCharList[length] == '<')
-//    {
-//        inputCharList.RemoveAt(length);
-//        EraseChar(x, inputCharList, length);
-//    }
-//    else if(x == length)
-//    {
-//        foreach (char c in inputCharList)
-//        {
-//            Console.Write(c);
-//        }
-//        return;
-//    }
-//    else
-//    {
-//        EraseChar(x + 1, inputCharList, length);                
-//    }
-
-//}
