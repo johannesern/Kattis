@@ -7,7 +7,6 @@
             string input = Console.ReadLine();
             char[] inputToCharArray = input.ToCharArray();
             List<char> inputCharList = new List<char>();
-
             foreach (char c in inputToCharArray)
             {
                 inputCharList.Add(c);
@@ -32,7 +31,7 @@
             Console.Clear();
             for (int i = 0; i < inputCharList.Count; i++)
             {
-                Console.Write(inputCharList[i]);
+                Console.Write(inputCharList[i]);                
             }
         }       
     }
