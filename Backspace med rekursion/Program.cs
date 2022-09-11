@@ -1,32 +1,29 @@
-﻿namespace Backspace
+﻿using System.Net;
+
+namespace Backspace
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
-            
-            int x = 0;
-            EraseChar(x, input);
-        }
-        public static void EraseChar(int x, string input)
-        {
-            int y = input.Length;
-            if (x == y)
+            List<char> list = new List<char>();
+            char[] input = Console.ReadLine().ToCharArray();
+            input.ToList().ForEach(x => list.Add(x));
+            for (int i = 0; i < list.Count; i++)
             {
-                Console.WriteLine(input);
-                return;
+                if(list[i] == '<')
+                {
+                    list.RemoveAt(i);
+                    list.RemoveAt(i - 1);
+                    i = 0;
+                }
+                
             }
-            else if (input[x] == '<')
-            {
-                input = input.Remove(x - 1, 2);
-                x = x - 1;
-                EraseChar(x, input);
-            }              
-            else
-            {
-                EraseChar(x + 1, input);
-            }
+            char[] k = list.ToArray();
+            //string l = String.Concat(k);
+            //Console.WriteLine(l);
+            string j = String.Join("", k);
+            Console.WriteLine(j);
         }
     }
 }
